@@ -14,7 +14,7 @@ public class uas {
         System.out.println(a[1]);
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Masukan Jumlah data yang akan diinput :");
+        System.out.println("masukan kendaraan :");
         int jum_data = Integer.parseInt(reader.readLine());
         String[] nama = new String[jum_data];
 
@@ -27,7 +27,7 @@ public class uas {
             System.out.println("kecepatan kendaraan " + (hasil + 1) + ":");
             System.out.println("kendaraan ke- " + nama[hasil]);
   }
-    private static int kecepatan();{
+    private static int kecepatan(){
             Random random =new Random();
             return;
             int i = random.nextInt(81) + 20;
