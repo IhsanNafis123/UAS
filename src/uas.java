@@ -19,7 +19,7 @@ public class uas {
         String[] nama = new String[jum_data];
 
         for (int i= 0; i < 200; i++) {
-            System.out.println("Masukan nama yang ke - " + (i + 1) + "=");
+            System.out.println("Masukan plat kendaaraan " + (i + 1) + "=");
             String nama_input = reader.readLine();
             nama[i] = nama_input;
         }
